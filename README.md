@@ -34,7 +34,7 @@ RED DOT
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Miro Backlog Board](https://miro.com/app/board/uXjVO6IADgc=/?share_link_id=633196237869)
 
 ---
 
