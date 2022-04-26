@@ -2,38 +2,35 @@
 
 **Takım İsmi**
 
-Takım X
+RED DOT
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 
-- John Doe: Product Owner
-- Jane Doe: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer
+- Berk Çatal: Product Owner
+- Elif Koçak: Scrum Master
+- Muhammed Bayram: Team Member/Developer
+- Esra Güler: Team Member/Developer
+- Semra Nur Yıldız: Team Member/Developer
 
 ## Ürün İsmi
 
---Movie App--
+--Henüz Belirlenmedi--
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+--Henüz Belirlenmedi--
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+--Henüz Belirlenmedi--
+
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+--Henüz Belirlenmedi--
+
 
 ## Product Backlog URL
 
