@@ -16,20 +16,19 @@ RED DOT
 
 ## Ürün İsmi
 
---Henüz Belirlenmedi--
+- Road Runner -
 
 ## Ürün Açıklaması
 
---Henüz Belirlenmedi--
+- Road Runner bir endless runner oyunudur. Oyunun bir sokakta geçmektedir ve karakterin amacı sokaktaki çöpleri toplayarak puan kazanmaktır.   
 
 ## Ürün Özellikleri
 
---Henüz Belirlenmedi--
-
+- Sürdürülebilir kalkınma hedeflerinden iklim eylemi hedefine dikkat çekmek istedik, bu amaçla sokaktaki çöpleri toplayan bir karakter tasarlayarak farkındalık yaratmak istedik.
 
 ## Hedef Kitle
 
---Henüz Belirlenmedi--
+- WebGL VE Mobil oyunu kullanıcıları. 
 
 
 ## Product Backlog URL
@@ -62,12 +61,22 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Giriş ve kaybetme ekranının tasarımlarının belirlenmesi ve oluşturulmasına karar verildi. Level tasarımının belirlenmesi için gerekli zaman olmadığına karar verilmiştir ve bir sonraki Sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
+
+Sprint Review katılımcıları: 
+
+-Berk Çatal 
+-Elif Koçak
+-Esra Güler
+-Muhammed Bayram
+-Semra Nur Yıldız
 
 - **Sprint Retrospective:**
+
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
   - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Unit test'ler ve toplantılar için ayrılan efor/saat arttırılmalı 
+  
 
 -**Diğer Notlar**:
 - N/A
