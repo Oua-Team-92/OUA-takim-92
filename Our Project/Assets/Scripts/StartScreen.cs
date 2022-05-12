@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartScreen : MonoBehaviour
 {
@@ -14,7 +15,10 @@ public class StartScreen : MonoBehaviour
         //user cannot start the game until enter the his/her name
         if (string.IsNullOrEmpty(inputField.GetComponent<TMP_InputField>().text))
         {
-            placeHolder.GetComponent<Animator>().enabled = true;
+            placeHolder.GetComponent<Animator>().enabled = true;           
+        }else{
+            SceneManager.LoadScene("GameScene");
+            Debug.Log(inputField.GetComponent<TMP_InputField>().text);
         }
     }
 
