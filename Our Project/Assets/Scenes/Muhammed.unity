@@ -282,7 +282,8 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: b011b9a88a990b64d993bf2cc446f0d2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b011b9a88a990b64d993bf2cc446f0d2, type: 3}
 --- !u!1 &481058432
 GameObject:
