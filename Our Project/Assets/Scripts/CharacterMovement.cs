@@ -18,10 +18,12 @@ public class CharacterMovement : MonoBehaviour
     private float verticalVelocity;
 
     private CharacterController characterController;
+    private Animator animator;
 
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -68,6 +70,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if(characterController.isGrounded && context.performed)
         {
+            animator.Play("Jump");
             Jump();
         }
     }
