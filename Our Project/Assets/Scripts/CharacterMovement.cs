@@ -6,9 +6,10 @@ using UnityEngine.InputSystem;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private float rotateSpeed = 2f;
     [SerializeField] private float lookSensitivity = 5f;
     [SerializeField] private float jumpHeight = 10f;
-    [SerializeField] private float gravity = 9.81f;
+    [SerializeField] private float gravity = 9.81f;  
 
     private Vector2 moveVector;
     private Vector2 lookVector;
@@ -34,7 +35,8 @@ public class CharacterMovement : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context) // With this we read input from CallbackContext
     {
-        moveVector = context.ReadValue<Vector2>(); //form input to 2d vector
+        moveVector.y = context.ReadValue<Vector2>().y;  //form input to 2d vector
+        lookVector.x = context.ReadValue<Vector2>().x;
     }
 
     private void Move()
@@ -57,12 +59,12 @@ public class CharacterMovement : MonoBehaviour
 
     public void OnLook(InputAction.CallbackContext context)
     {
-        lookVector = context.ReadValue<Vector2>();
+        //lookVector = context.ReadValue<Vector2>();
     }
 
     private void Rotate()
     {
-        rotation.y += lookVector.x * lookSensitivity * Time.deltaTime;
+        rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;
         transform.localEulerAngles = rotation;
     }
 
