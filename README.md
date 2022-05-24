@@ -43,7 +43,7 @@ RED DOT
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
@@ -85,6 +85,47 @@ Sprint Review katılımcıları:
 
 # Sprint 2
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats] [DailyScrumMeetingNotesSprint2-Son.docx] (https://github.com/Oua-Team-92/OUA-takim-92/files/8765771/DailyScrumMeetingNotesSprint2-Son.docx)
+- 
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://user-images.githubusercontent.com/14163747/170119647-166ebe12-4d5d-4724-998d-f093fda1a3c7.png)
+![Backlog 2](https://user-images.githubusercontent.com/14163747/170119636-f6253c83-3a5d-4652-92c6-05bed0962a70.png)
+![Backlog 3](https://user-images.githubusercontent.com/14163747/170119626-fff2404a-c5a2-4650-b235-bff34b6c5019.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](https://user-images.githubusercontent.com/14163747/170120099-55514d4a-17d4-43fa-b467-a6db2961ff11.png)
+  ![Screenshot 2](https://user-images.githubusercontent.com/14163747/170120157-5d7adf39-4a53-49c9-9ae9-905f4e8fdd9d.png)
+
+- **Sprint Review**: 
+Alınan kararlar: Environment ve karakter için kullanılacak olan assetler belirlendi. Karaktere gerekli olan hareketler ve animasyon geçişleri eklendi. Örnek çevre tasarımı bir sonraki sprintte tamamlanmak üzere yapıldı.
+
+Sprint Review katılımcıları: 
+
+-Berk Çatal 
+-Elif Koçak
+-Esra Güler
+-Muhammed Bayram
+-Semra Nur Yıldız
+
+- **Sprint Retrospective:**
+
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
+  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+  - Unit test'ler ve toplantılar için ayrılan efor/saat arttırılmalı 
+  
+
+-**Diğer Notlar**:
+- N/A
 
 ---
 
