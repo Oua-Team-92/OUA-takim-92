@@ -11,6 +11,8 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float jumpHeight = 10f;
     [SerializeField] private float gravity = 9.81f;  
 
+    public SpawnManager spawnManager;
+
     private Vector2 moveVector;
     private Vector2 lookVector;
 
@@ -80,5 +82,12 @@ public class CharacterMovement : MonoBehaviour
     private void Jump()
     {
         verticalVelocity = Mathf.Sqrt(jumpHeight * gravity);
+    }
+
+     void OnTriggerEnter()
+    {
+        Debug.Log("hayhay");
+        spawnManager.SpawnTriggerEntered();
+
     }
 }
