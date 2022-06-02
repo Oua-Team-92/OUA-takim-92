@@ -7,12 +7,14 @@ public class RoadSpawner : MonoBehaviour
 {
     public List<GameObject> cities;
     public GameObject city;
+    public ObstacleSpawner obsSpawner;
     public float Offset = 0; 
     public int CityCount;
     
     // Start is called before the first frame update
     void Start()
     {
+        obsSpawner = GetComponent<ObstacleSpawner>();
         //init object
         for(int i = 0;i<CityCount;i++){
             GameObject cityObject = Instantiate(city, new Vector3(0, 0, Offset), Quaternion.identity);
@@ -29,5 +31,6 @@ public class RoadSpawner : MonoBehaviour
         newCity.transform.position = new Vector3(0,0,Offset);
         Offset +=-189.7f;
         cities.Add(newCity);
+        obsSpawner.spawnMoreObstacle();
     }
 }
