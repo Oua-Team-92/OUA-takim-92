@@ -9,7 +9,8 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float rotateSpeed = 2f;
     [SerializeField] private float lookSensitivity = 5f;
     [SerializeField] private float jumpHeight = 10f;
-    [SerializeField] private float gravity = 9.81f;  
+    [SerializeField] private float gravity = 9.81f;
+    [SerializeField] private float characterSpeed = 1.5f;
 
     public SpawnManager spawnManager;
 
@@ -56,10 +57,12 @@ public class CharacterMovement : MonoBehaviour
         }
 
         //
-        Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
+        //Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
+        Vector3 move = (transform.right * moveVector.x) + (transform.forward * characterSpeed) + (transform.up * verticalVelocity);
+    
         // moveVector.x  = horizontal input, moveVector.y = vertical input
 
-        
+
         characterController.Move(move * moveSpeed * Time.deltaTime);
     }
 
