@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 3172387376265927760}
   - component: {fileID: 6652621069398509680}
   - component: {fileID: 3236745695731598513}
+  - component: {fileID: -2287835403940178923}
   m_Layer: 0
   m_Name: Car_6_Silver 1
   m_TagString: Cars
@@ -225,6 +226,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5122dd203729b8e43bf29ef09d34055c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2287835403940178923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522109161865418428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea659fdc777cb2b43be15eb2e74a100e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5795940743767891787

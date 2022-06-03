@@ -11,8 +11,6 @@ public class GemsSpawner : MonoBehaviour
     public int ObstacleStartCounter;
     public int ObstacleDefaultCounter;
 
-    public int destoryTimer;
-
 
     private float[] places = { 3.6f, 3f, -1.61f };
 
@@ -23,7 +21,6 @@ public class GemsSpawner : MonoBehaviour
         {
             GameObject obstacleItem = Instantiate(randomObstacle(), new Vector3(randomPlace(), -4f, Offset), Quaternion.identity);
             Offset += -15f;
-            Destroy(obstacleItem, destoryTimer);
         }
     }
 
@@ -43,7 +40,6 @@ public class GemsSpawner : MonoBehaviour
         {
             GameObject obstacleItem = Instantiate(randomObstacle(), new Vector3(randomPlace(), -4f, Offset), Quaternion.identity);
             Offset += -15f;
-            Destroy(obstacleItem, destoryTimer);
         }
     }
 }

@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 4095529935531443758}
   - component: {fileID: 8527304893628703867}
   - component: {fileID: -7401138203717287433}
+  - component: {fileID: 2999419035954841884}
   m_Layer: 0
   m_Name: Truck_1_Silver 1
   m_TagString: Cars
@@ -394,6 +395,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5122dd203729b8e43bf29ef09d34055c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2999419035954841884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4095529935531443757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea659fdc777cb2b43be15eb2e74a100e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4128302765989964178

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 114000012140138052}
   - component: {fileID: -8557714507600464041}
   - component: {fileID: 1438355737803380974}
+  - component: {fileID: -3337219560444975453}
   m_Layer: 0
   m_Name: Cuboid
   m_TagString: Gems
@@ -134,3 +135,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5122dd203729b8e43bf29ef09d34055c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-3337219560444975453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013105924406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea659fdc777cb2b43be15eb2e74a100e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}

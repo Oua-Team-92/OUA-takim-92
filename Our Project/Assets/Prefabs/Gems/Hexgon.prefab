@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 114000012194588374}
   - component: {fileID: 1232034957998232549}
   - component: {fileID: 5281195688009699101}
+  - component: {fileID: 1828965321645733696}
   m_Layer: 0
   m_Name: Hexgon
   m_TagString: Gems
@@ -134,3 +135,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5122dd203729b8e43bf29ef09d34055c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1828965321645733696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013356204050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea659fdc777cb2b43be15eb2e74a100e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
