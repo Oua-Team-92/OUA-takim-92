@@ -23,7 +23,6 @@ public class ObstacleSpawner : MonoBehaviour
         for(int i = 0;i<ObstacleStartCounter;i++){
             GameObject obstacleItem = Instantiate(randomObstacle(), new Vector3(randomPlace(), -5.34f, Offset), Quaternion.identity);
             Offset += -15f;
-            Destroy(obstacleItem,destoryTimer);
         }
     }
 
@@ -39,7 +38,6 @@ public class ObstacleSpawner : MonoBehaviour
         for(int i = 0;i<ObstacleDefaultCounter;i++){
             GameObject obstacleItem = Instantiate(randomObstacle(), new Vector3(randomPlace(), -5.34f, Offset), Quaternion.identity);
             Offset += -15f;
-            Destroy(obstacleItem,destoryTimer);
         }
     }
 

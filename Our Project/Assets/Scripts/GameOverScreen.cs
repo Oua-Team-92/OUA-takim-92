@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +24,7 @@ public class GameOverScreen : MonoBehaviour
     {
         Score.score = 0;
         Score.health = 100;
-        SceneManager.LoadScene("Berk-Level");
+        SceneManager.LoadScene("Level");
     }
         
         
