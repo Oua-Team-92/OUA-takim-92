@@ -178,6 +178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3172387376265927760}
+  - component: {fileID: 6652621069398509680}
   m_Layer: 0
   m_Name: Car_6_Silver 1
   m_TagString: Untagged
@@ -200,6 +201,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6652621069398509680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522109161865418428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0415325, y: 1.5823355, z: 5.511627}
+  m_Center: {x: -0.029349327, y: 0.85717916, z: -0.25309753}
 --- !u!1 &5795940743767891787
 GameObject:
   m_ObjectHideFlags: 0

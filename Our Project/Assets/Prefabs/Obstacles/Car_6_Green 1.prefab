@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1620829383989875614}
+  - component: {fileID: 6261248634585935127}
   m_Layer: 0
   m_Name: Car_6_Green 1
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6261248634585935127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718567929709842019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.295092, y: 1.3902807, z: 5.0015717}
+  m_Center: {x: 0.10212779, y: 0.95100594, z: 0.007835388}
 --- !u!1 &2675400062266633330
 GameObject:
   m_ObjectHideFlags: 0

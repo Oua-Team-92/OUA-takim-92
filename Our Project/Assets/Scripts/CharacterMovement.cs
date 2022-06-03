@@ -23,10 +23,15 @@ public class CharacterMovement : MonoBehaviour
     private CharacterController characterController;
     private Animator animator;
 
+    
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        rotation.y = 180;
+        transform.localEulerAngles = rotation;
+
     }
 
     private void Update()
@@ -50,9 +55,8 @@ public class CharacterMovement : MonoBehaviour
             verticalVelocity += -0.1f * gravity * Time.deltaTime;
         }
 
-
+        //
         Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
-
         // moveVector.x  = horizontal input, moveVector.y = vertical input
 
 
@@ -66,8 +70,12 @@ public class CharacterMovement : MonoBehaviour
 
     private void Rotate()
     {
+        
+
         rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;
+        
         transform.localEulerAngles = rotation;
+        Debug.Log("transform.localEulerAngles" + transform.localEulerAngles);
     }
 
     public void OnJump(InputAction.CallbackContext context)
