@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: bab78c1ebab84db4e80a552915f28a43
   - enabled: 1
-    path: Assets/Scenes/Berk-Level.unity
+    path: Assets/Scenes/Level.unity
     guid: 2f9ef27db65e5104e9aff7aec864b49f
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
