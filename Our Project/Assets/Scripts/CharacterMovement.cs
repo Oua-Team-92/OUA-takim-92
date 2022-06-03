@@ -9,7 +9,8 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float rotateSpeed = 2f;
     [SerializeField] private float lookSensitivity = 5f;
     [SerializeField] private float jumpHeight = 10f;
-    [SerializeField] private float gravity = 9.81f;  
+    [SerializeField] private float gravity = 9.81f;
+    [SerializeField] private float characterSpeed = 1.5f;
 
     public SpawnManager spawnManager;
 
@@ -23,10 +24,15 @@ public class CharacterMovement : MonoBehaviour
     private CharacterController characterController;
     private Animator animator;
 
+    
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        rotation.y = 180;
+        transform.localEulerAngles = rotation;
+
     }
 
     private void Update()
@@ -50,9 +56,10 @@ public class CharacterMovement : MonoBehaviour
             verticalVelocity += -0.1f * gravity * Time.deltaTime;
         }
 
-
-        Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
-
+        //
+        //Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
+        Vector3 move = (transform.right * moveVector.x) + (transform.forward * characterSpeed) + (transform.up * verticalVelocity);
+    
         // moveVector.x  = horizontal input, moveVector.y = vertical input
 
 
@@ -66,7 +73,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void Rotate()
     {
-        rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;
+        rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;       
         transform.localEulerAngles = rotation;
     }
 
@@ -84,10 +91,12 @@ public class CharacterMovement : MonoBehaviour
         verticalVelocity = Mathf.Sqrt(jumpHeight * gravity);
     }
 
-     void OnTriggerEnter()
+    private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("hayhay");
-        spawnManager.SpawnTriggerEntered();
-
+        if (!(other.gameObject.CompareTag("Gems") || other.gameObject.CompareTag("Cars")))
+        {
+            Debug.Log("hayhay");
+            spawnManager.SpawnTriggerEntered();
+        }
     }
 }

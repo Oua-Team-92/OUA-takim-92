@@ -6,22 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour
 {
-    //public Text pointsText;
+   
 
-    // public void Setup(int score)
-    //{
-    //    gameObject.SetActive(true); 
-    //    pointsText.Text = score.ToString() + "POINTS";
-    //}
-    
+
+    [SerializeField] private TMPro.TextMeshProUGUI result;
+
+
+    private void Start()
+    {
+        result.text = "Congratulations " + PlayerPrefs.GetString("playerName") + "\n" + "Your score is " + Score.score;
+    }
+
+
+
     public void RestartButton() 
     {
-        SceneManager.LoadScene("Start");
+        Score.score = 0;
+        Score.health = 100;
+        SceneManager.LoadScene("Berk-Level");
     }
         
         
     public void MainMenuButton() 
     {
+        Score.score = 0;
+        Score.health = 100;
         SceneManager.LoadScene("Start");
+    }
+
+    public void ExitGame()
+    {
+      Application.Quit();   
     }
 }

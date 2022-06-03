@@ -8,6 +8,7 @@ public class StartScreen : MonoBehaviour
 {
     [SerializeField] GameObject inputField;
     [SerializeField] GameObject placeHolder;
+    private string playerName;
 
     // Start is called before the first frame update
     public void PlayGame()
@@ -17,14 +18,17 @@ public class StartScreen : MonoBehaviour
         {
             placeHolder.GetComponent<Animator>().enabled = true;           
         }else{
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Debug.Log(inputField.GetComponent<TMP_InputField>().text);
         }
+        playerName = inputField.GetComponent<TMP_InputField>().text;
+        PlayerPrefs.SetString("playerName", playerName);
+        PlayerPrefs.Save();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ExitGame()
     {
-        
+        Application.Quit();
     }
 }
