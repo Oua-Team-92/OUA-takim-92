@@ -8,6 +8,7 @@ public class RoadSpawner : MonoBehaviour
     public List<GameObject> cities;
     public GameObject city;
     public ObstacleSpawner obsSpawner;
+    public GemsSpawner gemSpawner;
     public float Offset = 0; 
     public int CityCount;
     
@@ -15,6 +16,7 @@ public class RoadSpawner : MonoBehaviour
     void Start()
     {
         obsSpawner = GetComponent<ObstacleSpawner>();
+        gemSpawner = GetComponent<GemsSpawner>();
         //init object
         for(int i = 0;i<CityCount;i++){
             GameObject cityObject = Instantiate(city, new Vector3(0, 0, Offset), Quaternion.identity);
@@ -32,5 +34,6 @@ public class RoadSpawner : MonoBehaviour
         Offset +=-189.7f;
         cities.Add(newCity);
         obsSpawner.spawnMoreObstacle();
+        gemSpawner.spawnMoreObstacle();
     }
 }
