@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6053565359921160782}
   - component: {fileID: 7469854287019072695}
+  - component: {fileID: -662695721476956479}
   m_Layer: 0
   m_Name: Car_2_Red 1
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,11 +41,23 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344651363432299666}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.2375565, y: 1.3302221, z: 6.218445}
   m_Center: {x: -0.123334885, y: 0.985929, z: -0.19232178}
+--- !u!114 &-662695721476956479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344651363432299666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5122dd203729b8e43bf29ef09d34055c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2122125739786137906
 GameObject:
   m_ObjectHideFlags: 0

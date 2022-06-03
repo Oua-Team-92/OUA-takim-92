@@ -16,7 +16,9 @@ public class GameOverScreen : MonoBehaviour
     
     public void RestartButton() 
     {
-        SceneManager.LoadScene("Start");
+        Score.score = 0;
+        Score.health = 100;
+        SceneManager.LoadScene("Berk-Level");
     }
         
         

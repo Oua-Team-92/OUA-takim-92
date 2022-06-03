@@ -59,7 +59,7 @@ public class CharacterMovement : MonoBehaviour
         Vector3 move = (transform.right * moveVector.x) + (transform.forward * moveVector.y) + (transform.up * verticalVelocity);
         // moveVector.x  = horizontal input, moveVector.y = vertical input
 
-
+        
         characterController.Move(move * moveSpeed * Time.deltaTime);
     }
 
@@ -70,12 +70,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void Rotate()
     {
-        
-
-        rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;
-        
+        rotation.y += rotateSpeed* lookVector.x * lookSensitivity * Time.deltaTime;       
         transform.localEulerAngles = rotation;
-        Debug.Log("transform.localEulerAngles" + transform.localEulerAngles);
     }
 
     public void OnJump(InputAction.CallbackContext context)
@@ -92,10 +88,12 @@ public class CharacterMovement : MonoBehaviour
         verticalVelocity = Mathf.Sqrt(jumpHeight * gravity);
     }
 
-     void OnTriggerEnter()
+    private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("hayhay");
-        spawnManager.SpawnTriggerEntered();
-
+        if (!(other.gameObject.CompareTag("Gems") || other.gameObject.CompareTag("Cars")))
+        {
+            Debug.Log("hayhay");
+            spawnManager.SpawnTriggerEntered();
+        }
     }
 }
