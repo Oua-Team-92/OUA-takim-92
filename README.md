@@ -131,4 +131,43 @@ Sprint Review katılımcıları:
 
 # Sprint 3
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 160 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [DailyScrumMeetingNotesSprint3-Son.docx](https://github.com/Oua-Team-92/OUA-takim-92/files/8846729/DailyScrumMeetingNotesSprint3-Son.docx)
+- 
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1]![Sprint3-1](https://user-images.githubusercontent.com/14163747/172224610-2e01a7d3-1f63-44cc-a8d0-b611f8da093c.png)
+![Backlog 2]![Sprint3-2](https://user-images.githubusercontent.com/14163747/172224622-5e294484-c0b3-4a0f-aac2-c61f1758d9a5.png)
+![Backlog 3]![Sprint3-3](https://user-images.githubusercontent.com/14163747/172224626-94bdd65b-02d5-4ae4-8fae-c186800efa4b.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+- https://play.unity.com/mg/other/build-iis
+- ![WebGL-Game](https://user-images.githubusercontent.com/14163747/172225400-b2d88019-5568-441a-b335-8c494862a249.png)
+  
+
+- **Sprint Review**: 
+Alınan kararlar: Level Design'da değişiklikler yapılmaya karar verildi. Engeller ve toplanılabilir itemler eklendi ve bunlarla ilgili scriptler yazıldı. Son kontroller yapıldı ve oyun WebGl üzerine yüklendi.
+
+Sprint Review katılımcıları: 
+
+-Berk Çatal 
+-Elif Koçak
+-Esra Güler
+-Muhammed Bayram
+-Semra Nur Yıldız
+
+- **Sprint Retrospective:**
+---    
+
+-**Diğer Notlar**:
+- N/A
+
 ---
