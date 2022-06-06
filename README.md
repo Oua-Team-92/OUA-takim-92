@@ -20,15 +20,15 @@ RED DOT
 
 ## Ürün Açıklaması
 
-- Road Runner bir endless runner oyunudur. Oyunun bir sokakta geçmektedir ve karakterin amacı sokaktaki çöpleri toplayarak puan kazanmaktır.   
+- Road Runner bir endless runner oyunudur. Oyunun bir sokakta geçmektedir ve karakterin amacı sokaktaki gemleri toplayarak puan kazanmaktır.   
 
 ## Ürün Özellikleri
 
-- Sürdürülebilir kalkınma hedeflerinden iklim eylemi hedefine dikkat çekmek istedik, bu amaçla sokaktaki çöpleri toplayan bir karakter tasarlayarak farkındalık yaratmak istedik.
+- Endless Runner oyunlarının çok eğlendirici ve bağlayıcı olduğunu düşündük ve bunun üzerine oyunu geliştirmeye başladık.
 
 ## Hedef Kitle
 
-- WebGL VE Mobil oyunu kullanıcıları. 
+- WebGL oyun kullanıcıları. 
 
 
 ## Product Backlog URL
